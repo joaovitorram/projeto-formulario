@@ -75,6 +75,8 @@ box-sizing: border-box;
     background: var(--color-gradient);
     border-radius: 4px;
     box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.397);
+    cursor: pointer;
+    padding-bottom: 3px 0px;
 }
 
 #inputs{
@@ -105,3 +107,4 @@ box-sizing: border-box;
 .input-field i {
     color:black;
 }
+

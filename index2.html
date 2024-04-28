@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   <link rel="stylesheet" href="style2.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <main id="login">
+        <form id="login-form">
+            <div id="form-header">
+                <h1>Cadastre-se</h1>
+            </div>
+            <div id="inputs">
+                <fieldset>
+                    <div class="input-box">
+                        <label for="name">
+                            <strong>Name</strong>
+                            <div class="input-field">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                        </label>
+                    </div>
+                    <br>
+                    <div class="input-box">
+                        <label for="sobrenome">
+                            <strong>Sobrenome</strog> 
+                            <div class="input-field">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" id="Sobrenome" name="Sobrenome" required>
+                            </div>
+                        </label>
+                    </div>
+                </fieldset>
+                <br>
+                    <div class="input-box"></fieldset>
+                        <label for="password">
+                            <strong>Password</strog>
+                            <div class="input-field">
+                                <i class="fa-solid fa-key"></i>
+                                <input type="password" id="password" name="password" required>
+                            </div>
+                        </label>
+                    </div>
+
+                <br>
+
+                
+                <div class="input-box">
+                    <label for="login">
+                        <strong>Login</strog> 
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <abbr title="Digite o seu E-mail"><input type="email" id="login-email" name="login-email" required></abbr>
+                        </div>
+                    </label>
+                </div>
+
+                <br>
+
+                <div id="inputs">
+                    <div class="input-box">
+                        <label for="nacsimento">
+                            <strong>Nacsimento</strong>
+                            <div class="input-field">
+                                <i class="fa-regular fa-calendar"></i>
+                                <input type="date" id="nacsimento" name="nacsimento" required>
+                            </div>
+                        </label>
+                    </div>
+
+    
+    
+                    <div class="input_sexo">
+                        <label for="sexo">
+                            <strong>Sexo</strog> <br>
+                                <i class="fa-solid fa-venus-mars"></i>
+                                
+                                    <label class="input_sexo">
+                                        <input type="radio" class="input_sexo" name="sexo"  value="Masculino" required>Masculino
+                                    </label>
+                                    <label class="input_sexo">
+                                        <input type="radio" class="input_sexo" name="sexo"  value="Feminino" required>Feminino 
+                                    </label>
+                            </label>
+                    </div>
+
+            </div>
+            
+            <div class="login_button">
+                <button type="submit" id="login_button">
+                    <strong>Entrar</strong>
+                </button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
