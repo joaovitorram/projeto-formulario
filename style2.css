@@ -112,12 +112,33 @@
      
  }
 
+ #login_button:hover{
+    scale:calc(1.2);
+ }
+
  .login_button{
- display: flex;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ #link{
+    display: flex;
     align-items: center;
     justify-content: center;
  }
 
  .input_sexo{
     cursor: pointer;
+ }
+
+ #voltar{
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #voltar img:hover{
+    transform: scale(1.2);
  }

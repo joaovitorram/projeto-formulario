@@ -79,6 +79,32 @@ box-sizing: border-box;
     padding-bottom: 3px 0px;
 }
 
+#login_button:hover{
+    scale:calc(1.2);
+}
+
+#alink{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 15px;
+    margin-top: 15px;
+    padding:2px;
+}
+
+#link:hover{
+    border-radius: 50em;
+    background: var(--color-gradient);
+    scale:calc(1.2);
+    
+}
+
 #inputs{
     display:flex;
     flex-direction: column;
